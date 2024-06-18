@@ -1,0 +1,36 @@
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(16, 15, 15, 0.1);
+  transition: transform 0.2s;
+  background-color: white;
+}
+
+.movie-card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  padding: 0 10px;
+  text-align: center;
+  
+} 
+
+.movie-card p{
+
+  
+  text-align: center;
+
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+
+
+
+
+
+

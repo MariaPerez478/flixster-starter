@@ -1,0 +1,16 @@
+.movie-list {
+  /*split flex*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax() values as needed */
+  gap: 20px;
+  
+   /* Adjust gap between items */
+  /*padding: 20px; /* Optional padding */
+}
+
+@media screen and (max-width: 768px) {
+  .movie-list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust for smaller screens */
+    gap: 10px; /* Adjust gap for smaller screens */
+  }
+}
